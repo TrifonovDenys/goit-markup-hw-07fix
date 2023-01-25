@@ -63,7 +63,7 @@ img {
   overflow: hidden;
 }
 .container {
-  /* width: 1158px; */
+  max-width: 428px;
   margin: 0 auto;
   padding-left: 16px;
   padding-right: 16px;
@@ -383,6 +383,9 @@ nav {
 .logo-footer>span {
   color: var(--primary-brand-color);
 }
+.logo-sosial{
+  margin-bottom: 72px;
+}
 .footer-text {
   color: var(--accent-color);
   text-align: left;
@@ -393,7 +396,7 @@ nav {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 72px;
+    /* margin-bottom: 72px; */
 }
 
 
@@ -879,17 +882,25 @@ margin-bottom: 48px;
 
 
 .list-icon-mobile{
-  gap: 56px;
+  margin-right: auto;
+    justify-content: space-between;
+    max-width: 328px;
 }
 
 
 
 @media screen and (min-width: 768px){
+  .container {
+      max-width: 768px;
+      margin: 0 auto;
+      padding-left: 16px;
+      padding-right: 16px;
+    }
   .our-team{
     padding: 96px 0 108px;
   }
 .header{
-  padding: 24px 0 7px;
+  padding: 24px 0 10px;
 }
   .nav-link {
       color: var(--dark-color);
@@ -914,7 +925,7 @@ margin-bottom: 48px;
                   content: '';
                   width: 100%;
                   height: 4px;
-                  top: 45px;
+                  top: 37px;
                   position: absolute;
                   background-color: var(--pressed-state-color);
                   border-radius: 2px;
@@ -979,7 +990,7 @@ margin-bottom: 48px;
   .flex{
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    /* align-items: baseline; */
   }
   nav{
     gap: 120px;
@@ -1033,7 +1044,31 @@ margin-bottom: 48px;
   margin-bottom: 0;
 } */
 }
-
+@media screen and (max-width: 427px) {
+  .main-title {
+      font-size: 32px;
+    }
+  .modal {
+      max-width: 392px;
+      width: auto;
+    }
+        .form-label-privacy {
+          flex-wrap: wrap;
+          justify-content: center;
+            align-items: center;
+        }
+                .customers-list {
+                  gap: 48px;
+                }
+            .header-address-mobile>.addres-list>.addres-list-item>.contact-link:hover,
+            .header-address-mobile>.addres-list>.addres-list-item>.contact-link:focus {
+              color: var(--pressed-state-color);
+              font-weight: 600;
+              font-size: 25px;
+              line-height: calc(40/35);
+              text-transform: capitalize;
+            }
+}
 @media screen and (max-width: 768px) {
 .features-item:not(:last-child) {
   margin-bottom: 72px;
@@ -1084,7 +1119,7 @@ margin-bottom: 48px;
       padding: 120px 0 0;
     }
   .container {
-      width: 1158px;
+      max-width: 1158px;
       margin: 0 auto;
       padding-left: 15px;
       padding-right: 15px;
