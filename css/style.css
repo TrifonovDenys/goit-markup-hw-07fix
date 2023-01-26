@@ -517,6 +517,7 @@ nav {
   padding: 72px 16px 24px 16px;
   transform: translate(-50%, -50%);
   width: 392px;
+  max-width: 392px;
   background: #FCFCFC;
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 4px;
@@ -1031,6 +1032,7 @@ margin-bottom: 48px;
 }
 .modal {
   width: 408px;
+  max-width: 408px;
   padding: 72px 23px 24px 23px;
 }
 /* .our-team-item:nth-child(odd){
@@ -1049,7 +1051,7 @@ margin-bottom: 48px;
     }
   .modal {
       max-width: 392px;
-      width: auto;
+      width: 95%;
     }
         .form-label-privacy {
           flex-wrap: wrap;
