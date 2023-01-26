@@ -138,6 +138,9 @@ nav {
         .nav-link:focus {
           color: var(--pressed-state-color);
         }
+        .mobile-active > a{
+          color: var(--pressed-state-color);
+        }
 
                 .contact-link {
                   color: var(--text-color);
