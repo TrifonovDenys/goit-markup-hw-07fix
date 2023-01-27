@@ -499,6 +499,7 @@ nav {
 }
 
 .backdrop {
+  overflow-y: scroll;
   position: fixed;
   left: 0;
   top: 0;
