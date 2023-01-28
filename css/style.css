@@ -788,12 +788,13 @@ nav {
 }
 
 .menu-toggle {
-  min-height: 22px;
-  min-width: 32px;
+  /* min-height: 22px;
+  min-width: 32px; */
+  width: 40px;
+  height: 40px;
   display: flex;
   align-items: center;
   justify-content: center;
-
   margin: 0;
   padding: 0;
   background-color: transparent;
@@ -801,6 +802,9 @@ nav {
   border: none;
   border-radius: 50%;
   outline: none;
+}
+.menu-toggle:hover, .menu-toggle:focus {
+background-color: #2E2F420f;
 }
 
 @media (min-width: 768px) {
@@ -823,7 +827,7 @@ nav {
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 80px 40px 40px;
+  padding: 80px 40px 150px;
   background-color: var(--site-background);
   z-index: 999;
 
