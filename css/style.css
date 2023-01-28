@@ -964,13 +964,13 @@ margin-bottom: 48px;
   transition: transform var(--transition-duration) var(--const-transition);
 }
 
-/* .portfolio-link:hover .portfolio-tumb::before {
+.portfolio-link:hover .portfolio-tumb::before {
   transform: translateY(0);
 }
 
 .portfolio-link:focus .portfolio-tumb::before {
   transform: translateY(0);
-} */
+} 
 
 .portfolio-tumb-text {
   position: absolute;
@@ -987,13 +987,13 @@ margin-bottom: 48px;
   transition: transform var(--transition-duration) var(--const-transition);
 }
 
-/* .portfolio-link:hover .portfolio-tumb-text {
+ .portfolio-link:hover .portfolio-tumb-text {
   transform: translateY(0);
 }
 
 .portfolio-link:focus .portfolio-tumb-text {
   transform: translateY(0);
-} */
+} 
 
 
 .portfolio-item-underblock {
