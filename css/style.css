@@ -786,7 +786,6 @@ nav {
 .menu .link:focus {
   /* text-decoration: underline; */
 }
-
 .menu-toggle {
   /* min-height: 22px;
   min-width: 32px; */
@@ -1038,7 +1037,6 @@ margin-bottom: 48px;
 }
 
 
-
 @media screen and (min-width: 768px){
   .container {
       max-width: 768px;
@@ -1083,11 +1081,7 @@ margin-bottom: 48px;
     .contact-link{
       font-size: 12px;
         line-height: 16px;
-      
-        /* identical to box height, or 133% */
         letter-spacing: 0.04em;
-      
-        /* SLATE */
         color: #434455;
     }
 .hero {
