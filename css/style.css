@@ -826,7 +826,7 @@ background-color: #2E2F420f;
   left: 0;
   width: 100vw;
   height: 100vh;
-  padding: 80px 40px 150px;
+  padding: 80px 40px 40px;
   background-color: var(--site-background);
   z-index: 999;
 
